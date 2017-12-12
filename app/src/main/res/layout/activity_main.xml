@@ -7,6 +7,7 @@
     tools:context="com.splash.billy.liblary.MainActivity">
 
     <TextView
+        android:id="@+id/tv_email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="E-mail"
@@ -21,6 +22,7 @@
         android:layout_marginBottom="12dp"/>
 
     <TextView
+        android:id="@+id/tv_pass"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Passowd"
@@ -28,10 +30,12 @@
         android:layout_marginBottom="12dp"/>
 
     <EditText
+        android:id="@+id/et_pass"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="24sp"
-        android:layout_marginBottom="12dp"/>
+        android:layout_marginBottom="12dp"
+        android:inputType="textPassword"/>
 
     <Button
         android:id="@+id/bt_login"

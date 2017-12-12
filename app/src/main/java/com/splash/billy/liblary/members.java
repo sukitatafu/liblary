@@ -17,4 +17,8 @@ public class members {
     public void setId_member(String id_member) {
         this.id_member = id_member;
     }
+
+    public pinjaman getPinjaman(){return pinjaman; }
+
+    public void setPinjaman(pinjaman pinjaman){this.pinjaman=pinjaman;}
 }
